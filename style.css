@@ -1,0 +1,472 @@
+body .container {
+  background: url("bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .container .rowHeader {
+  opacity: 0.9;
+  margin-top: 15px;
+  background-color: lemonchiffon;
+}
+
+body .container .rowHeader .h1 {
+  font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+}
+
+body .container .rowHeader .imgLogo {
+  width: 60px;
+  height: 60px;
+  float: right;
+  border-radius: 30px;
+}
+
+body .container .rowNav {
+  opacity: 0.9;
+  margin-top: 15px;
+}
+
+body .container .rowNav .colBtn {
+  margin-bottom: 10px;
+}
+
+body .container .rowNav .inputSearch {
+  width: auto;
+  float: left;
+}
+
+body .container .modalWindow {
+  /* The Modal (background) */
+  /* Modal Content */
+  /* The Close Button */
+}
+
+body .container .modalWindow .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+body .container .modalWindow .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #888;
+  width: 305px;
+}
+
+body .container .modalWindow .modal-content .modalMessage {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: bolder;
+  color: #b31212;
+}
+
+body .container .modalWindow .modal-content .modalMessage .coinAdd {
+  color: black;
+}
+
+body .container .modalWindow .modal-content .close {
+  margin-top: -15px;
+}
+
+body .container .modalWindow .close {
+  color: #aaaaaa;
+  margin-left: auto;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+body .container .modalWindow .close:hover,
+body .container .modalWindow .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body .container .modalWindow .coinConten .card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 5px;
+  /* Rounded sliders */
+}
+
+body .container .modalWindow .coinConten .card .toggleBtn {
+  float: right;
+  margin-top: -41px;
+}
+
+body .container .modalWindow .coinConten .card .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+body .container .modalWindow .coinConten .card .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+body .container .modalWindow .coinConten .card .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .container .modalWindow .coinConten .card .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .container .modalWindow .coinConten .card input:checked + .slider {
+  background-color: #2196F3;
+}
+
+body .container .modalWindow .coinConten .card input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+body .container .modalWindow .coinConten .card input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+body .container .modalWindow .coinConten .card .slider.round {
+  border-radius: 34px;
+}
+
+body .container .modalWindow .coinConten .card .slider.round:before {
+  border-radius: 50%;
+}
+
+body .container .modalWindow .coinConten .card .card-text {
+  font-size: 13px;
+}
+
+body .container .contentContainer {
+  opacity: 0.9;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .container .contentContainer .contentHomePage {
+  min-height: 750px;
+  text-align: center;
+}
+
+body .container .contentContainer .contentHomePage .card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 5px;
+  text-align: left;
+  /* Rounded sliders */
+}
+
+body .container .contentContainer .contentHomePage .card .toggleBtn {
+  float: right;
+  margin-top: -41px;
+}
+
+body .container .contentContainer .contentHomePage .card .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+body .container .contentContainer .contentHomePage .card .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+body .container .contentContainer .contentHomePage .card .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .container .contentContainer .contentHomePage .card .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .container .contentContainer .contentHomePage .card input:checked + .slider {
+  background-color: #2196F3;
+}
+
+body .container .contentContainer .contentHomePage .card input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+body .container .contentContainer .contentHomePage .card input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+body .container .contentContainer .contentHomePage .card .slider.round {
+  border-radius: 34px;
+}
+
+body .container .contentContainer .contentHomePage .card .slider.round:before {
+  border-radius: 50%;
+}
+
+body .container .contentContainer .contentHomePage .card .card-text {
+  font-size: 13px;
+}
+
+body .container .contentContainer .contentHomePage .card .collapsible {
+  background-color: #007bff;
+  cursor: pointer;
+  padding: .375rem .75rem;
+  width: 95px;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  font-size: 1rem;
+  border-radius: .25rem;
+  border-color: #007bff;
+  color: #fff;
+}
+
+body .container .contentContainer .contentHomePage .card .active, body .container .contentContainer .contentHomePage .card .collapsible:hover {
+  background-color: #007bff;
+}
+
+body .container .contentContainer .contentHomePage .card .content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+body .container .contentContainer .contentHomePage .card .morInfo {
+  font-size: 12px;
+}
+
+body .container .contentContainer .contentHomePage .card .morInfo .morInfoCollapser {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+body .container .contentContainer .contentHomePage .card .morInfo .morInfoCollapser .price {
+  font-size: 14px;
+}
+
+body .container .contentContainer .contentLiveReportPage {
+  min-height: 750px;
+}
+
+body .container .contentContainer .contentLiveReportPage .livereportMsg {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: seashell;
+  border: 3px solid;
+  color: red;
+  border-radius: 15px;
+  max-width: 516px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+body .container .contentContainer .contentAboutPage {
+  background-color: wheat;
+  font-weight: bold;
+  min-height: 750px;
+}
+
+body .container .contentContainer .contentAboutPage .firstdescription {
+  margin-top: 90px;
+}
+
+body .container .contentContainer .contentAboutPage .aboutMy {
+  margin-top: 130px;
+}
+
+body .container .contentContainer .contentAboutPage .MyPicture {
+  width: 200px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 40px;
+}
+
+body .container .contentContainer .contentSearchPage {
+  min-height: 750px;
+}
+
+body .container .contentContainer .contentSearchPage .card {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 5px;
+  /* Rounded sliders */
+}
+
+body .container .contentContainer .contentSearchPage .card .card-text {
+  font-size: 13px;
+}
+
+body .container .contentContainer .contentSearchPage .card .toggleBtn {
+  float: right;
+  margin-top: -41px;
+}
+
+body .container .contentContainer .contentSearchPage .card .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+body .container .contentContainer .contentSearchPage .card .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+body .container .contentContainer .contentSearchPage .card .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .container .contentContainer .contentSearchPage .card .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .container .contentContainer .contentSearchPage .card input:checked + .slider {
+  background-color: #2196F3;
+}
+
+body .container .contentContainer .contentSearchPage .card input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+body .container .contentContainer .contentSearchPage .card input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+body .container .contentContainer .contentSearchPage .card .slider.round {
+  border-radius: 34px;
+}
+
+body .container .contentContainer .contentSearchPage .card .slider.round:before {
+  border-radius: 50%;
+}
+
+body .container .contentContainer .contentSearchPage .card .collapsible {
+  background-color: #007bff;
+  cursor: pointer;
+  padding: .375rem .75rem;
+  width: 95px;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  font-size: 1rem;
+  border-radius: .25rem;
+  border-color: #007bff;
+  color: #fff;
+}
+
+body .container .contentContainer .contentSearchPage .card .active, body .container .contentContainer .contentSearchPage .card .collapsible:hover {
+  background-color: #007bff;
+}
+
+body .container .contentContainer .contentSearchPage .card .content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+body .container .contentContainer .contentSearchPage .card .morInfo {
+  font-size: 12px;
+}
+
+body .container .contentContainer .contentSearchPage .card .morInfo .morInfoCollapser {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+body .container .contentContainer .contentSearchPage .card .morInfo .morInfoCollapser .price {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
